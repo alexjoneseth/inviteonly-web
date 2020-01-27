@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en" class="gr__inviteonly_io">
+
+<head>
+  <title>Portraits</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+  <link href="https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap" rel="stylesheet">
+  <style>
+    .bg01 {
+      background-image: url("https://tjihome.com/wp-content/uploads/2016/08/Elegant-white-brick-wall-9B13.jpg");
+      position: relative;
+      width: 4096px;
+      height: 409px;
+      top: 0px;
+      left: 0px;
+      z-index: 1;
+    }
+
+    .bg02 {
+      position: absolute;
+      width: 221px;
+      height: 360px;
+      top: 30px;
+      left: 300px;
+      z-index: 2;
+      cursor: pointer;
+    }
+
+    .bg03 {
+      position: absolute;
+      width: 221px;
+      height: 360px;
+      top: 30px;
+      left: 1200px;
+      z-index: 2;
+      cursor: pointer;
+    }
+
+    .bg04 {
+      position: absolute;
+      width: 221px;
+      height: 360px;
+      top: 30px;
+      left: 2300px;
+      z-index: 2;
+      cursor: pointer;
+    }
+
+    img {
+      width: 100%;
+      height: auto;
+    }
+
+    body {
+      color: #fff;
+      font-family: 'Press Start 2P';
+      font-size: 13px;
+      font-weight: bold;
+      background-color: #fff;
+      margin: 0px;
+      overflow: hidden left: 24px;
+    }
+
+    #info {
+      color: #fff;
+      position: relative;
+      width: 100%;
+      bottom: 30px;
+      margin: auto;
+      background-color: red;
+    }
+
+    @font-face {
+      font-family: VCR;
+      src: url("https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap");
+    }
+
+
+    a {
+      color: #000000;
+      display: flex;
+      position: inherit;
+      top: auto;
+      margin: auto 0;
+      padding: 10px;
+      width: 50%;
+    }
+
+    a :hover {
+      box-shadow: inset 0 0 20px rgba(255, 255, 255, .5), 0 0 20px rgba(255, 255, 255, .2);
+      outline-color: rgba(255, 255, 255, 0);
+      outline-offset: 15px;
+      text-shadow: 1px 1px 2px #427388;
+    }
+
+
+    #logo {
+      margin: auto 0;
+      padding: 10px;
+      width: auto;
+    }
+
+    @media only screen and (min-width: 1000px) {
+      #logo {
+        position: fixed;
+        top: 20px;
+        margin: auto 0;
+        padding: 10px;
+        position:relative
+        left: 34%;
+        width: 30%;
+      }
+  
+  </style>
+  <script>
+    if (document.location.search.match(/type=embed/gi)) {
+      window.parent.postMessage("resize", "*");
+    }
+    window.console = window.console || function(t) {};
+  </script>
+
+</head>
+
+<body data-gr-c-s-loaded="true">
+
+  <div id="container">
+    <img class="img-responsive logoCenter" id="logo" src="/Users/alexjones/Desktop/INVITEONLYWORLD/images/resources/Comp-1_1.gif">
+    <ul id="menu">
+      <li><a href="/commission">Media</a></li>
+      <li><a href="/Users/alexjones/Desktop/INVITEONLYWORLD/home/portraits.html">Portraits</a></li>
+      <li>
+        <a href="" target="_blank">Shop</a>
+      </li>
+      <li><a href="/info">About</a></li>
+      <li><a href="mailto:info@inviteonlyworld.com">Contact</a>
+      <li><a href="https://instagram.com/inviteonlyworld">Instagram</a></li>
+    </ul>
+
+    <div class="bg01">
+      <img src="/Users/alexjones/Desktop/INVITEONLYWORLD/images/resources/Comp-1_1.gif" </div> <div class="bg02">
+      <img src="/Users/alexjones/Desktop/INVITEONLYWORLD/images/resources/IMG_2418.jpg">
+    </div>
+    <div class="bg03">
+      <img src="/Users/alexjones/Desktop/INVITEONLYWORLD/images/resources/IMG_2465.jpg">
+    </div>
+
+    <div class="bg04">
+      <img src="/Users/alexjones/Desktop/INVITEONLYWORLD/images/resources/IMG_2467.jpg">
+    </div>
+</body>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        MODAL CONTENT
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
